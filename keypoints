@@ -1,0 +1,12 @@
+//For publishing code on npm.js:
+// in your main ts file add "#! usr/bin/env node" this line at the top (in line 1)
+//then add '"type": "module",' this in package .json after '"type"' line 
+// then do npm login in terminal cmd 
+// then do npm publish 
+// remember to update version after fixing bug in package or doing some major update before publishing it on npm.js again 
+
+// Version
+// eg: 1.0.1
+// last digit which is '1' changes or updates when we do some fix in our package like we fix the error or any mistake in our package so we change this digit to one greater like if it is '1' so we change it to '2' when we upload it again after fixing the error
+// second digit which is '0' changes or updates when we do some minor changes or doing user experience updated or better
+// first digit which is '1' changes or upadates when do some major change or major update
